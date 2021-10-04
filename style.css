@@ -11,7 +11,8 @@ body {
 .one{
     text-align: center;
     font-weight: 700 !important;
-    color: burlywood !important;
+    color: palevioletred!important;
+    background-color: darkgray !important;
 }
 
 .half-width {
@@ -70,7 +71,9 @@ color: #fff;
 .calc-button-row {
 width: 100%;
 }
-
+.read:read-only{
+    background-color: cyan;
+}
 .button {
 width: 20%;
 background: #425062;
@@ -84,6 +87,7 @@ vertical-align: middle;
 margin-right: -4px;
 border-radius: 10px;
 cursor: pointer;
+user-select: none;
 }
 .blink-me {
 color: #E0B612;

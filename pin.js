@@ -42,7 +42,11 @@ function submitBtn(){
         document.getElementById("try").innerHTML=count
        }
        else{
-           alert("Your Chance Is Les Than Zero!!")
+           let button = document.getElementById("submit-btn")
+           button.style.cursor="not-allowed"
+          button.setAttribute("disabled","true")
+          alert("Refresh Again To Play!!")
+           
        }
     }
 }
